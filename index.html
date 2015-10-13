@@ -17,20 +17,21 @@
     <!-- APPLICATION SCRIPTS -->
     <script src="base.js"></script>
   </head>
-    <body><div class="container">
+  <body>
+    <div class="container">
       <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h1>Travel Micro Blog</h1>
-        <p>I love to travel, don't you?
-      </div>
-      <div class="form-group">
-        <input input class="form-control" id="postContent" placeholder="Please leave a note about your favorite place to travel.">
-      </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </div>
-        </button> 
+        <div class="col-sm-6 col-sm-offset-3">
+          <h1>Travel Micro Blog</h1>
+          <p>I love to travel, don't you?</p>
         </div>
-        </div>
+        <form id="new-post">
+          <div class="form-group">
+            <input input class="form-control" id="post-content" placeholder="Please leave a note about your favorite place to travel.">
+          </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>        
+        </form>
+        <div id="post-list"></div>
       </div>
     </div>
   </body>
