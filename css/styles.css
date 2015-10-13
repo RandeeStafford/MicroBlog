@@ -1,7 +1,7 @@
 body {
-  color: #333;
+  color: white;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: skyblue; /* Sanity Check! */
+  background-image: url("http://intrestingimages.com/images/cool-purple-backgrounds/cool-purple-backgrounds-01.jpg");
 }
 
 h1 {
